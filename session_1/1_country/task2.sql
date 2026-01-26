@@ -11,4 +11,32 @@
 
 
 -- write your sql code here
-
+--1
+--select country
+--from countries
+--order by population desc limit 10
+--2
+--select country
+--from countries
+--order by areasqmi 
+--asc limit 5
+--3
+--select country
+--from countries
+--where continent='Europe'
+--order by areasqmi 
+--desc limit 1
+--4
+--select country
+--from countries
+--where continent='Africa'
+--order by areasqmi 
+--asc limit 3
+--5
+--select country
+--from countries
+--order by literacypercent asc limit 5
+--6
+select country
+from countries
+order by gdppercapita desc limit 3                                                            

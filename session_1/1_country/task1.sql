@@ -11,5 +11,38 @@
 
 
 -- write your sql code here
-
-SELECT * from countries;
+--1
+--SELECT * from countries;
+--2
+--select country, population 
+--from countries 
+--3
+--select country from countries where continent='Europe'
+--4
+--select country
+--from countries
+--where population>100000000
+--5
+--select country 
+--from countries
+--where gdppercapita>20000 AND continent='Asia'
+--6
+--select country
+--from countries
+--where literacypercent < 70
+--7
+--select country
+--from countries
+--where coastlineratio = 0
+--8
+--select country
+--from countries
+--where country like 'A%'
+--9
+--select country
+--from countries
+--where country like '%United%'
+--10
+select country
+from countries
+where population>50000000 AND birthrate>deathrate
