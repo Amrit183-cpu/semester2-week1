@@ -11,5 +11,8 @@
 
 
 -- write your sql code here
-
-SELECT * from countries;
+--1 select count(*) from countries;
+--2, understand the code below
+SELECT Continent, COUNT(Country) AS TotalCountries
+FROM countries
+GROUP BY Continent;
