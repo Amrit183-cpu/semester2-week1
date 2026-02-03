@@ -39,4 +39,4 @@
 --6
 select country
 from countries
-order by gdppercapita desc limit 3                                                            
+order by gdppercapita desc limit 3 AND like 'C%'                                                     
